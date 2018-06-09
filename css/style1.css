@@ -3,92 +3,15 @@ body{
     border: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.header{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    background-color: #333;
-    height: 200px;
-}
-.header>div{
-    background-color: #000;
-}
-.box1{ 
-    
-        padding: 0 30px ;
-        display: grid;
-        grid-template-columns: 3fr 3fr 2fr; 
-        color: #fff;
-        grid-auto-rows: 50px;text-align: end;
 
+#content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(18,1fr);
     
 }
-.box2{
-        padding: none;
-        border-bottom-color: #333;
-   
-}
-.box3{
-    padding: 0 30px ;
-    display: grid;
-    grid-template-columns: 3fr 3fr 2fr; 
-    color: #fff;
-    grid-auto-rows: 50px;text-align: end;
-    font-size: 14px;
-}
-.box4{
-    padding: 0px 10px 0px 0px;
-    display: grid;
-    color: #fff;
-    grid-auto-rows: 130px;
-    
-    display: block;
-    width:100%;
-    height: 100%;
-}
-.logo1{
-    padding: 0.3em;
-    margin-left: 3em;
-    display: block;
-    width:80%;
-}
-
-.box5{
-    padding: 0;
-    display: grid;
-    color: #fff;
-    grid-auto-rows: 130px;
-}
-.box6{
-    padding: 0;
-    display: grid;
-    grid-template-rows:repeat(2, 1fr); 
-    
-    color: #fff;
-    grid-auto-rows: 130px;
-}
-.cart{
-    padding-right: 30px;
-    text-align: end;
-}
-.box6 input
-{
-    border-radius: 0  2em 2em 0;
-    width: 80%;
-    margin-right: 10px;
-	margin-bottom: 20px;
-    padding-bottom: 3%;
-    padding-left: 30px;
-}
-.box6 input [type="text"]{
-    border: none;
-	border-bottom: 1px solid black;
-	background: transparent;
-	outline: none;
-	height: 1%;
-	color: black;
-    font-size: 16px;
-    align-self: baseline;
+#content div:nth-child(even){
+    background: #777;
 }
 .main{
     box-align: center;
