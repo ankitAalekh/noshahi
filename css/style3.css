@@ -1,0 +1,170 @@
+body{
+    margin: 0.5em;
+    padding: 0.5em;
+    background: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(30px,auto);
+}
+.head h1{
+    grid-column-start: 2;
+    justify-self: center;
+   display: block;
+   background-color:#D8E4BC;
+   
+   padding: 0.5em;
+   font-size: 3vw;
+}
+#content h2{
+    margin-left: 2em;
+    color: black;
+    font-size: 2vw;
+}
+#content p{
+    font-size: 1.5vw;
+}
+.image img{
+    display: block;
+    width: 100%;
+    max-width: 30%;
+    max-height: 100%;
+    margin-left: 30%;
+}
+.text2{
+    text-align: center;
+}
+.text2 h2{
+    padding-bottom: 1em;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.text2 p{
+    margin-left: 2em;
+    color: black;
+    font-size: 1vw;
+}
+.rpoint{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap: 4em;
+    margin: 0 3em;
+    padding: 2em 0.5em;
+    width: fit-content;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px,auto);
+
+}
+.icon img{
+    display: block;
+    width: 100%;
+    max-width: 30%;
+    max-height: 100%;
+    margin-left: 1%;
+}
+.icon h2{
+    text-align: end;
+    margin-right: 2em;
+}
+.redeem h2{
+text-align: center;
+}
+.redeem img{
+    display: block;
+    width: 100%;
+    max-width: 40%;
+    max-height: 100%;
+    margin-left: 30%;
+}
+.bg{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-image: url("fwdpics/excel.png");
+
+}
+.priv{
+    text-align: center;
+}
+.priv h2{
+    
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.priv p{
+    color: black;
+    font-size: 1vw;
+    padding: 2em;
+    margin: 0 3em;
+}
+.refer h2{
+font-weight: bold;
+font-size: 1.5vw;
+margin-left: 3em;
+}
+.refer p{
+    font-weight: normal;
+    color: black;
+    font-size: 1vw;
+    margin-left: 3em;
+}
+.rnf{
+    display: block;
+    width: 100%;
+    max-width: 40%;
+    max-height: 100%;
+    margin-left: 30%;
+
+}
+#content .text3{
+    text-align: center;
+    color: maroon;
+    font-size: 1.2vw;
+    margin:1em 4em;
+}
+.market{
+    text-align: center;
+}
+.market h2{
+    font-size: 1.2vw;
+    margin-left: 3em;
+}
+.market p{
+    font-size: 1vw;
+    margin-left: 2em;
+}
+.affiliates h2{
+    margin-top: 3em;
+}
+.affiliates img{
+    margin: 3em 5em;
+    align-self: center;
+}
+.affiliates h3{
+margin-left: 2em;
+font-size: 1.2vw;
+}
+.affiliates .next{
+    display: block;
+   
+    max-width: 10%;
+    max-height: 100%;
+    align-self: center;
+    margin-left:45%; 
+}
+.affiliates .account{
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    max-height: 100%;
+    margin-left: 10%;
+}
