@@ -7,11 +7,11 @@ body{
 .main p{
     padding: 1vw 1vw;
     border: none;
-    text-align:start;
+    text-align:center;
     text-shadow: #111;
     font-weight: bold;
     color: #000;
-    margin-left: 0%;
+    margin-left: 5%;
     width: 80%;
     font-size: 2.5vw;
  }
@@ -24,7 +24,7 @@ body{
      background-color: #DAE5C2;
      color:black;
     text-shadow: -1px 0 orangered, 0 1px orangered, 1px 0 orangered, 0 -1px orangered;
-     margin-left:40%;
+     margin-left:30%;
      margin-top: 3em;
     
  }
