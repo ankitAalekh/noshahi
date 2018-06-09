@@ -78,25 +78,29 @@ body{
 #section-c{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 10%;
 
 }
 .head2{
-    margin-left: 3em;
+    margin-left: 10%;
     font-weight: bold;
     color: #627441;
-    font-size: 2.7vw;
+    font-size: 2.6vw;
 }
 
-.dcm{
-    padding: 5px;
-    display: block;
-    width: 60%;
-    
-    
-}
+
 .img{
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
+    
+}
+.share img{
+  
+    display: block;
+    width:100%;
+    height: 100%;
+    padding: 1em;
+    grid-auto-columns: 2/3;
+      
     
 }
